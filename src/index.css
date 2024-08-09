@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-image {
+  @apply h-full;
+  background-image: url('https://images.unsplash.com/photo-1553696590-4b3f68898333?w=5&q=1&ixlib=rb-4.0.3');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background-image-card {
+  @apply h-full;
+  background-image: url('https://images.unsplash.com/photo-1719937206094-8de79c912f40?w=5&q=1&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
